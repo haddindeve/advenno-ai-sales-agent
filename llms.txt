@@ -1,0 +1,41 @@
+# AI Sales Agent - Automated Lead Generation and Outreach
+
+> Agentic pipeline that finds, enriches, qualifies and contacts B2B leads across multiple data sources.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/advenno-ai-sales-agent
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+Outbound prospecting meant manually searching directories, copying company details into a sheet, guessing which leads were worth contacting, and writing each message by hand. The work did not scale and quality varied with whoever was doing it.
+
+A staged agent pipeline: discovery pulls candidates from several sources, enrichment fills in firmographic and contact data, an analysis stage scores fit, and an outreach stage drafts channel-appropriate messages. A command centre exposes each stage so a human can inspect and intervene rather than trusting an opaque end-to-end run.
+
+## Stack
+Language: Python, Agent layer: LLM-driven analysis and drafting, Sources: Directory and social data connectors, Interface: Command centre UI
+
+## Capabilities
+- Multi-source lead discovery
+- Automated enrichment and deduplication
+- LLM fit scoring and qualification
+- Channel-aware outreach drafting
+- Operator command centre with stage-level visibility
+
+## Outcomes
+- Manual directory research replaced by a repeatable pipeline
+- Qualification applied consistently instead of per-operator judgement
+- Human review retained at each stage rather than a black-box run
+
+## FAQ
+Q: Is this a scraper?
+A: No - scraping is only the discovery stage. The value is in enrichment, scoring and channel-aware drafting on top of it.
+
+Q: How is lead quality controlled?
+A: An analysis stage scores fit against the target profile, and the operator can inspect and reject at every stage.
+
+Q: Which channels does outreach cover?
+A: Message drafting is channel-aware, with the operator approving before anything is sent.
+
+Q: Where is the code?
+A: Private repository; access on request.
